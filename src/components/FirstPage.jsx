@@ -4,7 +4,7 @@ import BodyLogo from "../assets/logo2.png";
 
 const FirstPage = () => {
     return (
-        <div className="bg flex flex-col">
+        <div className="bg">
             <div>
                 <img
                     src={HeaderLogo}
@@ -14,13 +14,16 @@ const FirstPage = () => {
                 <hr className="w-[90%] border-1 border-black items-center mx-auto pt-6" />
             </div>
 
-            <div className="flex justify-center mx-auto items-center">
+            <div className="btn">
                 <button
                     href="#"
-                    className="w-[464px] h-[60px] flex justify-center items-center mx-auto bg-black rounded-lg text-white"
+                    className="w-[464px] px-[60px] py-[18px] bg-black rounded-lg text-white"
                 >
                     რეზიუმეს დამატება
                 </button>
+                <div className="absolute top-[-50px] right-[-100px] -z-10">
+                    <img src={BodyLogo} alt="" />
+                </div>
             </div>
         </div>
     );
