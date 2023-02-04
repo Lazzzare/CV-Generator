@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Helvetica-Neue;
+  src: url("./Font-Family/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl/D:\CV-Generator\src\Font-Family\Helvetica Neue LTW0697BlkCnObl\Helvetica Neue LTW0697BlkCnObl.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica-Neue;
+}
+
+.bg {
+  background: url("./assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
