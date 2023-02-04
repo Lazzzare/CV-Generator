@@ -1,3 +1,4 @@
+import FirstPage from "./components/FirstPage"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <FirstPage />
     </div>
   )
 }
