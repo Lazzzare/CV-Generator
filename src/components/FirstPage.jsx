@@ -17,11 +17,11 @@ const FirstPage = () => {
             <div className="btn">
                 <button
                     href="#"
-                    className="w-[464px] px-[60px] py-[18px] bg-black rounded-lg text-white"
+                    className="w-[464px] px-[60px] py-[18px] bg-[#1A1A1A] rounded-lg text-white"
                 >
                     რეზიუმეს დამატება
                 </button>
-                <div className="absolute top-[-50px] right-[-100px] -z-10">
+                <div className="absolute top-[-50px] right-[-140px] -z-10">
                     <img src={BodyLogo} alt="" />
                 </div>
             </div>
