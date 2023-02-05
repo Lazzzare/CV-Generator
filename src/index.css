@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: HelveticaNeue;
+  font-family: Helvetica-neue;
   src: url("/src/Font-Family/HelveticaNeue.ttc");
 }
 
