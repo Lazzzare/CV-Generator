@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderLogo from "../assets/logo.png";
 import BodyLogo from "../assets/logo2.png";
+import { Link } from "react-router-dom";
 
 const FirstPage = () => {
     return (
@@ -15,12 +16,17 @@ const FirstPage = () => {
             </div>
 
             <div className="btn">
-                <button
-                    href="#"
-                    className="w-[464px] px-[60px] py-[18px] bg-[#1A1A1A] rounded-lg text-white"
-                >
-                    რეზიუმეს დამატება
-                </button>
+
+                <Link to="/personal">
+                    <button
+                        href="#"
+                        className="w-[464px] px-[60px] py-[18px] bg-[#1A1A1A] rounded-lg text-white"
+                    >
+
+                        რეზიუმეს დამატება
+
+                    </button>
+                </Link>
                 <div className="absolute top-[-50px] right-[-140px] -z-10">
                     <img src={BodyLogo} alt="" />
                 </div>
