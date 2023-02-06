@@ -11,7 +11,12 @@ const PersonalPage = () => {
     const [mail, setMail] = useState("");
     const [phone, setPhone] = useState("");
     const [about, setAbout] = useState("");
+    const [image, setImage] = useState("");
 
+    const handleChange = (e) => {
+        console.log(e.target.files)
+        setImage(e.target.files[0]);
+    }
     return (
         <div className="flex">
             <div className="h-screen w-1/2">
@@ -60,7 +65,7 @@ const PersonalPage = () => {
                 <div className="pl-36 mt-11">
                     <div className="flex flex-row gap-5 items-center">
                         <h1>პირადი ფოტოს ატვირთვა</h1>
-                        <input type="file" />
+                        <input type="file" onChange={handleChange} />
                     </div>
                     <div className="flex flex-col mt-11 gap-2">
                         <h1>ჩემს შესახებ (არასავალდებულო)</h1>
