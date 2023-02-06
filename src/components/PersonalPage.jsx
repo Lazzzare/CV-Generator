@@ -76,7 +76,7 @@ const PersonalPage = () => {
                         ></input>
                     </div>
                     <div className="mt-6 gap-2">
-                        <h1>ელ.ფოსტა</h1>
+                        <h1 className="mb-2">ელ.ფოსტა</h1>
                         <input
                             type="text"
                             placeholder="lazare111@rebderry.ge"
@@ -89,7 +89,7 @@ const PersonalPage = () => {
                         </span>
                     </div>
                     <div className="mt-6 gap-2">
-                        <h1>მობილურის ნომერი</h1>
+                        <h1 className="mb-2">მობილურის ნომერი</h1>
                         <input
                             type="text"
                             placeholder="+995 551 12 34 56"
@@ -105,7 +105,7 @@ const PersonalPage = () => {
                     <button className="bg-[#6B40E3] text-white px-[35px] py-[14px] mr-5 rounded">შემდეგი</button>
                 </div>
             </div>
-            <CV name={name} lastName={lastName} mail={mail} phone={phone} about={about} />
+            <CV name={name} lastName={lastName} mail={mail} phone={phone} about={about} image={image} />
         </div>
     );
 };
