@@ -25,7 +25,7 @@ const CV = ({ name, lastName, mail, phone, about }) => {
                 <h3 className="text-[#F93B1D] text-lg font-bold mt-8 mb-3">
                     ჩემს შესახებ
                 </h3>
-                <p className="w-[423px]">
+                <p className="max-w-[423px]">
                     {about}
                 </p>
             </div>
